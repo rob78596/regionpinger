@@ -16,7 +16,7 @@ public class Main implements RequestHandler<Parameters, String> {
 
     public String handleRequest(Parameters input, Context context) {
         System.out.println("Running regionpinger lambda");
-        System.out.println("Input object" + input);
+        System.out.println("Adding an extra line of logging to test build pipeline..");
 
         System.out.println("Attempting to ping: "+input.getDestination());
 
